@@ -17,14 +17,13 @@
     grid-template-areas: "header header"
                         "main main"
                         "footer footer";
- margin: -180px 90px 20px 90px;
+ margin: -190px 90px 20px 90px;
 }
 
 header {
     background: url(./imagens/background.jpg) no-repeat center center;
     background-size: cover;
     grid-area: header;
-    
    
 }
 
