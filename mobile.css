@@ -1,9 +1,11 @@
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     header {
         background: url(./imagens/background2.jpg) no-repeat center left ;
         background-size:100%;
         grid-area: header;
-        margin-top: -40px;
+        margin: 10px;
+        width: 94% ;
+    height: 200px;
     }
 
     header h1 {
@@ -21,7 +23,7 @@
     .container {
         display: grid;
         grid-template-columns:3fr ;
-        grid-template-rows: 35vh auto auto;
+        grid-template-rows: auto auto auto;
         grid-template-areas: "header header"
                             "main main"
                             "footer footer";
@@ -56,8 +58,21 @@ transition: 1s;
  .mostrar {
     height: 32px;
  }
-    #menuresponsivo {
-        display: none;
+    #menuresponsivo{
+        
+      display: none;
+    }
+    
+    #menuresponsivo2 {
+        margin-top: 70px;
+        margin-left: 320px;
+        position: absolute;
+        color: brown;
+        
+    }
+    #menuresponsivo2 ul {
+        list-style: none;
+        
     }
  
     .show{
@@ -67,8 +82,10 @@ transition: 1s;
 
   
     .menu img {
+        margin: 0 auto;
        display: block;
        cursor: pointer;
+       margin-top: -40px;
     }
     #number {
         opacity: 0;
@@ -96,6 +113,7 @@ transition: 1s;
         background-color: white;
         display: flex;
         justify-content: space-around;
+        
     }
     
     .menu ul {
@@ -151,12 +169,13 @@ transition: 1s;
     }
 
     .imagem1 {
-    margin: 0 auto;
-   
-   
+        width: 100%;
+       
     }
 
     .imagem1 img {
+        width: 40%;
+        height: 300px;
         display: block;
         margin: 0 auto;
 
@@ -183,19 +202,21 @@ transition: 1s;
         background-color: rgb(153, 19, 19);
         font-family: 'Dancing Script', cursive;  
         color: white;
-        width: 80%;
+        width: 60%;
         height: 40vh;
         margin: 0 auto;
        
     }
     
     .catalogo2 ul {
+    
         list-style: none;
         text-align: center;
        
        
     }
     .catalogo2 li {
+      
         text-align: left;
         font-family: 'Poppins', sans-serif;
         cursor: pointer;

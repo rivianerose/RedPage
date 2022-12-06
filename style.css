@@ -24,6 +24,7 @@ header {
     background: url(./imagens/background.jpg) no-repeat center center;
     background-size: cover;
     grid-area: header;
+    
    
 }
 
@@ -87,6 +88,10 @@ cursor: pointer;
 .menugeral h2 {
     font-size: 25px;
     cursor: pointer;
+}
+
+#menuresponsivo2 {
+    display: none;
 }
 .order {
     text-align: center;
