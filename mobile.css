@@ -3,7 +3,6 @@
         background: url(./imagens/background2.jpg) no-repeat center left ;
         background-size:100%;
         grid-area: header;
-        margin: 10px;
         width: 94% ;
     height: 200px;
     }
